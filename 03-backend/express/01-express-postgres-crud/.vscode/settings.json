@@ -1,0 +1,7 @@
+{
+  "rest-client.environmentVariables": {
+    "Local Env": {
+      "hostname": "http://127.0.0.1:3000"
+    }
+  }
+}

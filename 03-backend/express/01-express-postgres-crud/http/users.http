@@ -1,0 +1,31 @@
+### fetch user list
+
+GET {{hostname}}/api/users
+
+### fetch user item
+
+GET {{hostname}}/api/users/3
+
+### create user item
+
+POST {{hostname}}/api/users
+Content-Type: application/json
+
+{
+  "name": "John",
+  "email": "john@mail.com"
+}
+
+### update user item
+
+PUT {{hostname}}/api/users/3
+Content-Type: application/json
+
+{
+  "name": "Jo",
+  "email": "john2@mail.com"
+}
+
+### delete user item
+
+DELETE {{hostname}}/api/users/1
